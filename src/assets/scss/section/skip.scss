@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+#skip{
+    a{
+        position: absolute;
+        left: 10px;
+        top: -100px;
+        z-index: 10000;
+        font-size: 16px;
+        padding: 10px 30px;
+        background-color: var(--black);
+        color: var(--white);
+
+        &:focus{
+            top: 10px;
+        }
+        &:active{
+            top: 10px;
+        }
+    }
+}
